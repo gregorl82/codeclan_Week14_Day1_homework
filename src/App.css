@@ -62,6 +62,10 @@ h3 {
   font-weight: bolder;
 }
 
+.chart-item-release-date {
+  font-size: 14px; 
+}
+
 #apple-icon {
   position: relative;
   top: 14px;
