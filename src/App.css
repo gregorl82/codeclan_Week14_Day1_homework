@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.chart-list {
+  margin: 20px;
+}
+
+.chart-item {
+  display: inline-block;
+  padding: 20px;
+  height: 100px;
+  width: 30%;
+}
+
+.chart-item-position {
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+#apple-icon {
+  position: relative;
+  top: 14px;
+  right: 10px;
+}

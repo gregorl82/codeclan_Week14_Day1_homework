@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import ChartItem from './ChartItem';
 
 function ChartList(props){
@@ -8,9 +8,9 @@ function ChartList(props){
   })
 
   return (
-    <Fragment>
+    <div className="chart-list">
       {chartItems}
-    </Fragment>
+    </div>
   );
 }
 
