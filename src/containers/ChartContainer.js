@@ -15,7 +15,12 @@ class ChartContainer extends Component {
 
     fetch(url)
     .then(res => res.json())
-    .then(data => this.setState( { data: data.feed.entry } ))
+    .then((data) => {
+      data.feed.entry.map((item, index) => {
+        return item.chartPosition = index + 1
+      })
+      this.setState( {data: data.feed.entry} )
+    })
     .catch(err => console.error)
   }
 

@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 function ChartItem(props) {
   return (
     <Fragment>
-      <h2>I am a chart item</h2>
+      <p>{props.children.chartPosition}. {props.children['im:name'].label}, {props.children['im:artist'].label}</p>
     </Fragment>
   )
 }

@@ -4,7 +4,7 @@ import ChartItem from './ChartItem';
 function ChartList(props){
 
   const chartItems = props.charts.map((song, index) => {
-    return <ChartItem song={song} key={index}/>
+    return <ChartItem key={index}>{song}</ChartItem>
   })
 
   return (
