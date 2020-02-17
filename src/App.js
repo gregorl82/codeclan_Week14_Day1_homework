@@ -1,8 +1,9 @@
 import React from 'react';
+import ChartContainer from './containers/ChartContainer'
 import './App.css';
 
 function App() {
-  return <h1>Hello world!</h1>
+  return <ChartContainer />
 }
 
 export default App;
