@@ -1,9 +1,10 @@
 import React, { Fragment } from 'react';
+import ChartItem from './ChartItem';
 
 function ChartList(){
   return (
     <Fragment>
-      I am the chart list
+      <ChartItem />
     </Fragment>
   );
 }
