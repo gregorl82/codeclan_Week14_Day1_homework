@@ -27,7 +27,7 @@ class ChartContainer extends Component {
   render() {
     return (
       <div className="chart-container">
-        <h1><img id="apple-icon" src={this.state.icon}/>iTunes Store Top 20 Songs</h1>
+        <h1><img id="apple-icon" src={this.state.icon} alt=""/>iTunes Store Top 20 Songs</h1>
         <ChartList charts={this.state.data}/>
       </div>
     );
