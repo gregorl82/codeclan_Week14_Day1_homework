@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import ChartItem from './ChartItem';
 
-function ChartList(){
+function ChartList(props){
   return (
     <Fragment>
       <ChartItem />
