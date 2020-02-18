@@ -4,7 +4,7 @@ function ChartItem(props) {
   return (
     <div className="chart-item">
       <p className="chart-item-position">{props.children.chartPosition}</p>
-      <img className="chart-item-image" src={props.children['im:image'][0].label} alt="" height="90px"/>
+      <img className="chart-item-image" src={props.children['im:image'][2].label} alt="" height="100px"/>
       <div className="chart-item-name-artist">
         <h3>{props.children['im:name'].label}</h3>
         <p>{props.children['im:artist'].label}</p>
