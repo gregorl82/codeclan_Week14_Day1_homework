@@ -1,3 +1,17 @@
+<h1>React Music Charts</h1>
+<h2>Objectives</h2>
+<ul>
+<li>Practise making a request in a React app and passing the data from that request down the chain of components</li>
+<li>Practise using stateless components</li>
+</ul>
+<h2>MVP</h2>
+<p>Make a simple React app that displays the current UK top 20 songs. You can get the data for this here:</p>
+<p><a href="https://itunes.apple.com/gb/rss/topsongs/limit=20/json">https://itunes.apple.com/gb/rss/topsongs/limit=20/json</a></p>
+<p>You are required to use a stateless component as part of your app.</p>
+<p>The MVP is to request the data, then display the list of songs with each song showing its chart position, title and artist.</p>
+<h2>Extensions</h2>
+<p>Add more information - you could include images or the preview song audio clips. Style this nicely with CSS.</p>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
